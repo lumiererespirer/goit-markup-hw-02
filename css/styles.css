@@ -1,4 +1,9 @@
 :root {
+    --primary-logo-color: #000000;
+    --nav-link-color: #212121;
+    --address-link-color: #757575;
+    --primary-footer-link-color: #ffffff;
+    --secondary-footer-link-color: rgba(255,255,255,.6);
     --primary-text-color: #757575;
     --secondary-text-color: rgba(255,255,255,.6);
     --title-color: #212121;
@@ -6,7 +11,6 @@
     --hover-color: #188ce8;
     --primary-background-color: #ffffff;
     --secondary-background-color: #f5f4fA;
-    --primary-logo-color: #000000;
 }
 
 body {
@@ -89,11 +93,11 @@ button {
 }
 
 .header-nav-link {
-    color: var(--title-color);
+    color: var(--nav-link-color);
 }
 
 .header-address-link {
-    color: var(--primary-text-color);
+    color: var(--address-link-color);
 }
 
 .header-nav-link.current {
@@ -272,18 +276,17 @@ button {
 }
 
 .footer-address-link {
-    font-family: inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: var(--secondary-footer-link-color);
     background-color: var(--primary-text-color);
 }
 
 .footer-address-link.location {
-    color: var(--primary-background-color);
+    color: var(--primary-footer-link-color);
 }
 
 .footer-address-link:hover,
