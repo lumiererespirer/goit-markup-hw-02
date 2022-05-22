@@ -18,6 +18,7 @@ body {
     background-color: var(--primary-background-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    font-weight: 400;
 }
 
 .section-title {
@@ -157,8 +158,6 @@ button {
 }
 
 .benefit-text {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     
@@ -200,7 +199,6 @@ button {
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
@@ -259,7 +257,6 @@ button {
 }
 
 .portfolio-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
